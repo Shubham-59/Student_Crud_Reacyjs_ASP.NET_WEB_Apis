@@ -1,0 +1,18 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header, footer {
+  flex-shrink: 0;
+}
+
+main {
+  flex: 1;
+}

@@ -1,0 +1,16 @@
+.header {
+  margin-bottom: 20px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+}
+
+.nav-link:hover {
+  color: #21D192;
+}

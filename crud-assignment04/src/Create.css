@@ -1,0 +1,76 @@
+/* Center the container and set its width */
+.container {
+     min-width:500px;
+    padding:5px;
+    background-color: #ffffff; 
+    border-radius: 8px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 1);
+    border: 2px solid #007bff; 
+  }
+  .my-container {
+    margin: .2rem;
+    padding: .5rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    justify-content: space-between;
+  }
+  
+  .my-title {
+    margin-bottom: 0;
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .my-button {
+    flex-shrink: 0;
+    margin-left: 3rem; /* Minimum gap */
+  }
+  
+  @media (min-width: 576px) {
+    .my-button {
+      margin-left: 300px; /* Minimum gap on larger screens */
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .my-button {
+      margin-left: 350px; /* Adjust gap on larger screens */
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .my-button {
+      margin-left: 400px; /* Maximum gap on larger screens */
+    }
+  }
+  
+  .my-button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: green; /* Change to a lighter shade of yellow on hover */
+  }
+  
+  /* Styling the input fields */
+  .form-control {
+    margin-bottom: 3px;
+    border-radius: 2px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+  }
+  
+  /* Styling the submit button */
+  .btn-success {
+    display: flex;
+    justify-content: center;
+    text-shadow: #ced4da;
+    background: linear-gradient(); /* Gradient background */
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-success:hover {
+    background: linear-gradient(90deg,red); /* Hover effect for the button */
+    cursor: pointer;
+  }
+  
